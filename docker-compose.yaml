@@ -8,8 +8,8 @@ services:
             - 8443:443/tcp
             - 9000:9000/tcp
         network_mode: "bridge"
-        privileged: false
-		shm_size=8G
+	privileged: false
+             shm_size=8G
         environment:
             - TZ=America/New_York
             - PUID=99
