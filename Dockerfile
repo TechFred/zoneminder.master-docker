@@ -14,7 +14,8 @@ ENV	DEBCONF_NONINTERACTIVE_SEEN="true" \
 	PHP_VERS="7.4" \
 	ZM_VERS="master" \
 	PUID="99" \
-	PGID="100"
+	PGID="100" \
+ 	ZM_VERS="1.36"
 
 FROM builder as build1
 COPY init/ /etc/my_init.d/
